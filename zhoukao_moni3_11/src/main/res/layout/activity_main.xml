@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_username"
+        android:hint="输入用户名"/>
+
+    <EditText
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_password"
+        android:hint="输入用户名"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"
+        android:id="@+id/btn_login"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/qq"
+            android:id="@+id/img_qq"/>
+        <ImageView
+            android:layout_weight="2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/weixin"
+            android:id="@+id/img_wei"/>
+    </LinearLayout>
+
+
+</LinearLayout>
